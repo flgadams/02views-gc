@@ -22,7 +22,7 @@ class RootViewController: UIViewController {
     }()
     @objc fileprivate func draw1ButtonTouchSelector(sender:Any) {
         let file = "\(#file)".components(separatedBy: "/").last!; NSLog("\n\u{2705} \(#function) Line \(#line) of \(file)\n")
-        
+        present(Draw1ViewController(), animated: true )
     }
     
     lazy var draw2Button:UIButton = {  //snip zxuibtnl
@@ -38,7 +38,7 @@ class RootViewController: UIViewController {
     }()
     @objc fileprivate func draw2ButtonTouchSelector(sender:Any) {
         let file = "\(#file)".components(separatedBy: "/").last!; NSLog("\n\u{2705} \(#function) Line \(#line) of \(file)\n")
-        
+        present(Draw2ViewController(), animated: true)
     }
     
     lazy var draw3Button:UIButton = {  //snip zxuibtnl
@@ -54,7 +54,7 @@ class RootViewController: UIViewController {
     }()
     @objc fileprivate func draw3ButtonTouchSelector(sender:Any) {
         let file = "\(#file)".components(separatedBy: "/").last!; NSLog("\n\u{2705} \(#function) Line \(#line) of \(file)\n")
-        
+        present(Draw3ViewController(), animated: true)
     }
     
     lazy var draw4Button:UIButton = {  //snip zxuibtnl
@@ -70,23 +70,23 @@ class RootViewController: UIViewController {
     }()
     @objc fileprivate func draw4ButtonTouchSelector(sender:Any) {
         let file = "\(#file)".components(separatedBy: "/").last!; NSLog("\n\u{2705} \(#function) Line \(#line) of \(file)\n")
-        
+        present(Draw4ViewController(), animated: true)
     }
     
     lazy var draw5Button:UIButton = {  //snip zxuibtnl
         let ui = UIButton(type: .system)
-        ui.setTitle("Draw 4", for: .normal)
+        ui.setTitle("Draw 5", for: .normal)
         ui.titleLabel?.font = .systemFont(ofSize: 20)
         ui.setTitleColor(UIColor.white, for: UIControl.State.normal)
         ui.backgroundColor = UIColor.orange
         ui.layer.borderWidth = 1
         ui.layer.cornerRadius = 16
-        ui.addTarget(self, action: #selector(draw4ButtonTouchSelector), for: .touchUpInside)
+        ui.addTarget(self, action: #selector(draw5ButtonTouchSelector), for: .touchUpInside)
         return ui
     }()
     @objc fileprivate func draw5ButtonTouchSelector(sender:Any) {
         let file = "\(#file)".components(separatedBy: "/").last!; NSLog("\n\u{2705} \(#function) Line \(#line) of \(file)\n")
-        
+        present(Draw5ViewController(), animated: true)
     }
     
     lazy var draw6Button:UIButton = {  //snip zxuibtnl
@@ -102,7 +102,7 @@ class RootViewController: UIViewController {
     }()
     @objc fileprivate func draw6ButtonTouchSelector(sender:Any) {
         let file = "\(#file)".components(separatedBy: "/").last!; NSLog("\n\u{2705} \(#function) Line \(#line) of \(file)\n")
-        
+        present(Draw6ViewController(), animated: true)
     }
     
     override func viewDidLoad() {
