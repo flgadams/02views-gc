@@ -14,6 +14,10 @@ class Draw1ViewController: UIViewController {
 
         self.view.backgroundColor = .green
         
+        let v1 = View1(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
+        self.view.addSubview(v1)
+        
+        
     }
     
 

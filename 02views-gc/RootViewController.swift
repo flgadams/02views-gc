@@ -11,7 +11,7 @@ class RootViewController: UIViewController {
 
     lazy var draw1Button:UIButton = {  //snip zxuibtnl
         let ui = UIButton(type: .system)
-        ui.setTitle("Draw 1", for: .normal)
+        ui.setTitle("1: UIView overrides draw() w/ UIKit", for: .normal)
         ui.titleLabel?.font = .systemFont(ofSize: 20)
         ui.setTitleColor(UIColor.white, for: UIControl.State.normal)
         ui.backgroundColor = UIColor.orange
@@ -27,7 +27,7 @@ class RootViewController: UIViewController {
     
     lazy var draw2Button:UIButton = {  //snip zxuibtnl
         let ui = UIButton(type: .system)
-        ui.setTitle("Draw2", for: .normal)
+        ui.setTitle("2 UIView overrides draw() w/ CG", for: .normal)
         ui.titleLabel?.font = .systemFont(ofSize: 20)
         ui.setTitleColor(UIColor.white, for: UIControl.State.normal)
         ui.backgroundColor = UIColor.orange
@@ -110,13 +110,9 @@ class RootViewController: UIViewController {
         self.view.backgroundColor = .systemGray
         
         for (index, eachButton) in [draw1Button,draw2Button, draw3Button, draw4Button,draw5Button, draw6Button].enumerated() {
-            
             self.view.addSubview(eachButton)
             eachButton.frame = CGRect(x: 0, y:index * 50 + 50, width: Int(self.view.bounds.width), height: 50)
             eachButton.autoresizingMask = .flexibleWidth
-            
-            
-            
         }
         
         
