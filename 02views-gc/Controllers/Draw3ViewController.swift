@@ -8,22 +8,22 @@
 import UIKit
 
 class Draw3ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.view.backgroundColor = .red
+        let v3 = View3()
+        v3.layer.setNeedsDisplay()
+        v3.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        self.view.addSubview(v3)
+        v3.backgroundColor = UIColor.white
+        
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }
+
+
+

@@ -13,17 +13,13 @@ class Draw4ViewController: UIViewController {
         super.viewDidLoad()
 
         self.view.backgroundColor = .green
+        
+        let v4 = View4()
+        self.view.addSubview(v4)
+        v4.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        v4.backgroundColor = .white
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

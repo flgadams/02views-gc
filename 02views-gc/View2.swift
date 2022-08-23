@@ -8,7 +8,6 @@
 import UIKit
 
 class View2: UIView {
-
      override func draw(_ rect: CGRect) {
         
          let gc = UIGraphicsGetCurrentContext()!
@@ -17,6 +16,4 @@ class View2: UIView {
          gc.fillPath()
          
     }
-    
-
 }

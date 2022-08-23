@@ -15,7 +15,7 @@ class Draw2ViewController: UIViewController {
         self.view.backgroundColor = .yellow
         
         let v2 = View2(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
-
+        
         self.view.addSubview(v2)
         
     }

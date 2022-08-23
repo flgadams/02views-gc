@@ -113,14 +113,13 @@ class RootViewController: UIViewController {
             self.view.addSubview(eachButton)
             eachButton.frame = CGRect(x: 0, y:index * 50 + 50, width: Int(self.view.bounds.width), height: 50)
             eachButton.autoresizingMask = .flexibleWidth
+            
         }
         
         
         
         
-        
-        
-        
+    
     }
 }
 
