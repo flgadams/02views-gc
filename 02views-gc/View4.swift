@@ -7,13 +7,14 @@
 
 import UIKit
 
+
 class View4: UIView {
 
     override func draw(_ rect: CGRect) {
         // you must have this unless you
         // set layer.SetNeedsDisplay() in the vc
     }
-    
+    // THIS IS CORE GRAPHICS 
     override func draw(_ layer: CALayer, in con: CGContext) {
         print("in draw")
         con.addEllipse(in:CGRect(x: 0,y: 0,width: 100,height: 100))
