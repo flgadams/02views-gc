@@ -7,6 +7,8 @@
 
 import UIKit
 
+// THIS IS UIKIT
+
 class View3: UIView {
 
     override func draw(_ rect: CGRect) {
@@ -23,16 +25,6 @@ class View3: UIView {
         UIGraphicsPopContext()
    }
  
-    
-
-    /*
-    override func draw(_ layer: CALayer, in con: CGContext) {
-        print("in draw")
-        con.addEllipse(in:CGRect(x: 0,y: 0,width: 100,height: 100))
-        con.setFillColor(UIColor.blue.cgColor)
-        con.fillPath()
-    }
-     */
     
 
 
