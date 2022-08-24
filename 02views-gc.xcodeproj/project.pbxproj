@@ -26,6 +26,8 @@
 		21A5EC3428B5993D007CA884 /* Draw8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5EC3328B5993D007CA884 /* Draw8ViewController.swift */; };
 		21A5EC3628B59949007CA884 /* Draw9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5EC3528B59949007CA884 /* Draw9ViewController.swift */; };
 		21A5EC3828B5AEF0007CA884 /* Draw10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5EC3728B5AEF0007CA884 /* Draw10ViewController.swift */; };
+		21A5EC3A28B5C569007CA884 /* Draw11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5EC3928B5C569007CA884 /* Draw11ViewController.swift */; };
+		21A5EC3C28B5CC8C007CA884 /* Draw12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5EC3B28B5CC8C007CA884 /* Draw12ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		21A5EC3328B5993D007CA884 /* Draw8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draw8ViewController.swift; sourceTree = "<group>"; };
 		21A5EC3528B59949007CA884 /* Draw9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draw9ViewController.swift; sourceTree = "<group>"; };
 		21A5EC3728B5AEF0007CA884 /* Draw10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draw10ViewController.swift; sourceTree = "<group>"; };
+		21A5EC3928B5C569007CA884 /* Draw11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draw11ViewController.swift; sourceTree = "<group>"; };
+		21A5EC3B28B5CC8C007CA884 /* Draw12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draw12ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				21A5EC3328B5993D007CA884 /* Draw8ViewController.swift */,
 				21A5EC3528B59949007CA884 /* Draw9ViewController.swift */,
 				21A5EC3728B5AEF0007CA884 /* Draw10ViewController.swift */,
+				21A5EC3928B5C569007CA884 /* Draw11ViewController.swift */,
+				21A5EC3B28B5CC8C007CA884 /* Draw12ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -201,7 +207,9 @@
 				21A5EC2B28B2EBFE007CA884 /* View3.swift in Sources */,
 				21A5EC3828B5AEF0007CA884 /* Draw10ViewController.swift in Sources */,
 				2122C4B928B2CDE300F33281 /* Draw3ViewController.swift in Sources */,
+				21A5EC3C28B5CC8C007CA884 /* Draw12ViewController.swift in Sources */,
 				21A5EC3228B5992E007CA884 /* Draw7VIewControllerViewController.swift in Sources */,
+				21A5EC3A28B5C569007CA884 /* Draw11ViewController.swift in Sources */,
 				2122C4C228B2D28600F33281 /* View1.swift in Sources */,
 				21A5EC3628B59949007CA884 /* Draw9ViewController.swift in Sources */,
 				2122C4BB28B2CDF100F33281 /* Draw4ViewController.swift in Sources */,

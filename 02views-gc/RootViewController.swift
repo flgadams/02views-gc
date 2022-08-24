@@ -171,11 +171,43 @@ class RootViewController: UIViewController {
         present(Draw10ViewController(), animated: true)
     }
     
+    lazy var draw11Button:UIButton = {  //snip zxuibtnl
+        let ui = UIButton(type: .system)
+        ui.setTitle("11 CGImage method to split image badver", for: .normal)
+        ui.titleLabel?.font = .systemFont(ofSize: 20)
+        ui.setTitleColor(UIColor.white, for: UIControl.State.normal)
+        ui.backgroundColor = UIColor.orange
+        ui.layer.borderWidth = 1
+        ui.layer.cornerRadius = 16
+        ui.addTarget(self, action: #selector(draw11ButtonTouchSelector), for: .touchUpInside)
+        return ui
+    }()
+    @objc fileprivate func draw11ButtonTouchSelector(sender:Any) {
+        let file = "\(#file)".components(separatedBy: "/").last!; NSLog("\n\u{2705} \(#function) Line \(#line) of \(file)\n")
+        present(Draw11ViewController(), animated: true)
+    }
+    
+    lazy var draw12Button:UIButton = {  //snip zxuibtnl
+        let ui = UIButton(type: .system)
+        ui.setTitle("12 CGImage method to spit image good ver", for: .normal)
+        ui.titleLabel?.font = .systemFont(ofSize: 20)
+        ui.setTitleColor(UIColor.white, for: UIControl.State.normal)
+        ui.backgroundColor = UIColor.orange
+        ui.layer.borderWidth = 1
+        ui.layer.cornerRadius = 16
+        ui.addTarget(self, action: #selector(draw12ButtonTouchSelector), for: .touchUpInside)
+        return ui
+    }()
+    @objc fileprivate func draw12ButtonTouchSelector(sender:Any) {
+        let file = "\(#file)".components(separatedBy: "/").last!; NSLog("\n\u{2705} \(#function) Line \(#line) of \(file)\n")
+        present(Draw12ViewController(), animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .systemGray
         
-        for (index, eachButton) in [draw1Button,draw2Button, draw3Button, draw4Button,draw5Button, draw6Button, draw7Button, draw8Button,draw9Button, draw10Button].enumerated() {
+        for (index, eachButton) in [draw1Button,draw2Button, draw3Button, draw4Button,draw5Button, draw6Button, draw7Button, draw8Button,draw9Button, draw10Button,draw11Button,draw12Button].enumerated() {
             self.view.addSubview(eachButton)
             eachButton.frame = CGRect(x: 0, y:index * 50 + 50, width: Int(self.view.bounds.width), height: 50)
             eachButton.autoresizingMask = .flexibleWidth
